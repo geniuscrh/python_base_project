@@ -1,5 +1,5 @@
-from common.BaseDTO import BaseDTO
+from common.BaseResult import BasResult
 
 if __name__ == '__main__':
-    res=BaseDTO.not_ok()
+    res=BasResult.not_ok()
     print(res)
